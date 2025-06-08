@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Invite Guests</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="white">
+    <div class="container">
+        <p>Invite Guests</p>
+        <div class="invite-box">
+            <div class="tag-input">
+                <input type="text" id="emailInput" placeholder="Add guest email..." />
+            </div>
+        </div>
+            <div class="GEST">
+            <p class="guest-count">
+                Invite <b><span id="guestCount">0</span> guests</b> to this retrospective
+            </p>
+            <button id="inviteButton">Invite guests</button>
+        </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
